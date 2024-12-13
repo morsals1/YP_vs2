@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Site</title>
+    <link rel="stylesheet" href="st_Style.css">
+</head>
+<body class="block">
+    <div class="modal">
+        <form action="seach.php" method="POST">
+            <p>Введите параметры поиска</p>
+            <label for="name">Название:</label>
+            <input type="text" name="name" id="name" size="18" /><br>
+            <label for="author">Автор:</label>
+            <input type="text" name="author" id="author" size="18" /><br>
+            <label for="genre">Жанр:</label>
+            <input type="text" name="genre" id="genre" size="18" /><br>
+            <label for="year">Год издания:</label>
+            <input type="text" name="year" id="year" size="18" /><br>
+            <p><button class="btn-new" type="submit" name="search">Поиск</button></p>
+        </form>
+    </div>
+</body>
+</html>

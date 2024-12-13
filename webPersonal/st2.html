@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Site</title>
+        <link rel="stylesheet" href="st_Style.css">
+    </head>
+    <script src="messReg.js"></script>
+    <body class="block">
+        <form action="xy.php" method="post" >
+            <div class="modal">
+                <H1>Регистрация</H1>
+                    <p>Имя</p>
+                    <input type="text" name="userName" size="18" class="input-new" required/>
+                    <p>Почта</p>
+                    <input type="email" name="userEmail" size="18" class="input-new" required/>
+                    <p>Логин</p>
+                    <input type="text" name="userLogin" size="18" class="input-new" required/>
+                    <p>Пароль</p>
+                    <input type="password" name="userPassword" size="18" class="input-new" required/>
+                    <p></p>
+                    <a href="st.html"><button type="button" class="btn-new">Назад</button></a>
+                    <p></p>
+                    <button class="btn-new" type="submit" onclick="window.location.href='st.html';">Сохранить</button>
+            </div>
+        </form>
+    </body>
+</html>
